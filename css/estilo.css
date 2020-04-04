@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2|Quicksand&display=swap');
+
+html,
+body {
+    font-family: 'Baloo 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+header {
+    background-attachment: fixed;
+    color: white;
+    height: 100%;
+    background-image: url(https://static2.lolwallpapers.net/2017/06/59518b2ba679a.png);
+    background-size: cover;
+    
+}
+
+
+header h1 {
+    font-family: 'Quicksand', sans-serif;
+
+    font-size: 6em;
+}
+
+header h1,
+h6 {
+    text-shadow: 4px 4px 4px black;
+}
+header{
+    width: 100%;
+    display: block;
+}
+
+.imagem{
+    border-radius:  100px;
+    width: 150px;
+    height: 150px;
+}
+
+.imagem:hover{
+    cursor:pointer;
+    box-shadow: 2px 2px 15px gray; 
+}
+
+section#home{
+    text-align: center;
+    margin-top: 100px;
+}
+section div{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
