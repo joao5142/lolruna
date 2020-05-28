@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>LolRunas</title>
     <meta charset="utf-8">
@@ -11,29 +11,26 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/estilo.css">
 
-
 </head>
-
 <body>
-
     <header>
         <div>
             <nav style="z-index:12;" class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">LolRuna</a>
-
+    
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
                     aria-label="Alterna navegação">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
+    
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato.html">Contato</a>
+                            <a class="nav-link" href="contato.php">Contato</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -43,15 +40,19 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Runas e builds para Magos</a>
                                 <a class="dropdown-item" href="#">Runas e builds para Adc</a>
-
+    
                                 <a class="dropdown-item" href="#">Runas e builds para Guerreiro</a>
                                 <a class="dropdown-item" href="#">Runas e builds para Jungle</a>
                                 <a class="dropdown-item" href="#">Runas e builds para Suporte</a>
-
+    
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobre.html">Sobre</a>
+                            <a class="nav-link" href="sobre.php">Sobre</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="faleconosco.php">Fale Conosco</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -61,24 +62,24 @@
                     </form>
                 </div>
             </nav>
-
+    
         </div>
-
+    
         <div style="z-index: 0;height:100%; position:absolute;top:0px;width: 100%;"
             class="d-flex justify-content-center">
             <div style="text-align: center;" class="align-self-center text-center ">
                 <h1>LolRuna</h1>
                 <h6>Bem Vindo ao meu site!</h6>
             </div>
-
+    
         </div>
-
+    
     </header>
-
-
-
+    
+    
+    
     <div class="container mt-4">
-
+    
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -90,35 +91,35 @@
                     <img class="d-block w-100 h-50"
                         src="http://getwallpapers.com/wallpaper/full/c/5/6/1056813-lol-wallpapers-1920x1080-1920x1080-for-iphone-5.jpg"
                         alt="Primeiro Slide">
-
-
+    
+    
                     <div class="carousel-caption">
                         <h3>LolChamps</h3>
-
+    
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 h-50"
                         src="https://s1.1zoom.me/big0/52/League_of_Legends_Akali_Artwork_Nurse_costume_555015_1280x720.jpg"
                         alt="Segundo Slide">
-
+    
                     <div class="carousel-caption">
                         <h3>Akali</h3>
-
+    
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 h-50"
                         src="https://img5.uhdpixel.com/wp/5y/3/project-evelynn-lol-league-of-legends-y5319.jpg"
                         alt="Terceiro Slide">
-
+    
                     <div class="carousel-caption">
                         <h3>Irelia</h3>
-
+    
                     </div>
                 </div>
             </div>
-
+    
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Anterior</span>
@@ -129,81 +130,11 @@
             </a>
         </div>
 
-        <section id="home">
 
-
-            <div class="row  mt-4">
-                <div class="col-sm-12 text-center">
-                    <h1 class="display-4">Runas E Builds</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <h3>Aurelion Sol Build</h3>
-
-                    <a href="champs/aurelionsol.html">
-                        <img class="img-fluid imagem"
-                            src="https://i.pinimg.com/originals/44/9c/08/449c088172faf81114bc28c9e6bf3a2e.jpg"
-                            onclick="">
-                    </a>
-
-
-                </div>
-                <div class="col-sm-4">
-                    <h3>Lulu Build</h3>
-                    <a href="champs/lulu.html">
-
-
-                        <img class="img-fluid imagem"
-                            src="https://image0.uhdpaper.com/wallpaper/lulu-lol-star-guardian-splash-art-uhdpaper.com-4K-528.jpg">
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <h3>Lissandra Build</h3>
-
-                    <a href="champs/lissandra.html">
-                        <img class="img-fluid imagem"
-                            src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lissandra_4.jpg">
-                    </a>
-                </div>
-            </div>
-
-
-            <div class="row mt-4">
-                <div class="col-sm-4">
-                    <h3>Sett Build</h3>
-
-                    <a href="champs/sett.html">
-                        <img class="img-fluid imagem"
-                            src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg ">
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <h3>Darius Build</h3>
-                    <a href="champs/darius.html">
-                        <img class="img-fluid imagem"
-                            src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_1.jpg">
-                    </a>
-
-                </div>
-                <div class="col-sm-4">
-                    <h3>Yasuo Build</h3>
-
-                    <a href="champs/yasuo.html">
-                        <img class="img-fluid imagem"
-                            src="https://4.bp.blogspot.com/-SXoYglhayEQ/XNvBtK1SLmI/AAAAAAAAGYY/rLcyVtJlqfE9HwYe0C_Q1eTzdoBiCAAHgCKgBGAs/w2560-h1600-c/yasuo-lol-uhdpaper.com-4K-81.jpg">
-                    </a>
-                </div>
-            </div>
     </div>
 
-    </section>
-    <footer class="panel-footer" style="text-align:center;">
-        <p>&copy João Paulo (Direitos Abertos)</p>
-    </footer>
-
+    
 
 </body>
+</php>
 
-</html>

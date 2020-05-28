@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
 
 
 </head>
@@ -30,10 +30,10 @@
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                            <a class="nav-link" href="../index.php">Home <span class="sr-only">(página atual)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato.html">Contato</a>
+                            <a class="nav-link" href="contato.php">Contato</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -51,7 +51,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobre.html">Sobre</a>
+                            <a class="nav-link" href="sobre.php">Sobre</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -78,29 +78,64 @@
 
 
     <div class="container mt-4">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 h-50"
+                        src="https://static2.lolwallpapers.net/2014/12/Woad-King-Darius.jpg"
+                        alt="Primeiro Slide">
  
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 h-50"
+                        src="https://static2.lolwallpapers.net/2016/05/5738cf29db45d.png"
+                        alt="Segundo Slide">
+
+                       
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 h-50"
+                        src="https://static2.lolwallpapers.net/2016/04/570e93aa3ed50.jpg"
+                        alt="Terceiro Slide">
+ 
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
 
         <section id="home">
 
 
             <div class="row  mt-4">
                 <div class="col-sm-12 text-center">
-                    <h1 class="display-4">Sobre</h1>
+                    <h1 class="display-4">Darius</h1>
                 </div>
             </div>
 
-
-            <div class="row  mt-4">
-                <div class="col-sm-12 text-center">
-                      <p>Somos uma equipe especializada em criação de runas e builds para o jogo
-                          League of Legends, cada runa é dedicada ao seu champ.
-                      </p>
-                </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="img-fluid" src="../img/dominacao.png" width="80%">
+                
+               </div>
+              
+               
             </div>
 
-
-             
-             
+ 
     </div>
 
     </section>
@@ -111,4 +146,4 @@
 
 </body>
 
-</html>
+</php>

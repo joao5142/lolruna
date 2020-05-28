@@ -30,10 +30,10 @@
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">Home <span class="sr-only">(página atual)</span></a>
+                            <a class="nav-link" href="../index.php">Home <span class="sr-only">(página atual)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato.html">Contato</a>
+                            <a class="nav-link" href="contato.php">Contato</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -51,7 +51,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobre.html">Sobre</a>
+                            <a class="nav-link" href="#">Sobre</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -88,20 +88,20 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100 h-50"
-                        src="https://static2.lolwallpapers.net/2016/01/Lissandra-Fan-Art.png"
+                        src="https://static2.lolwallpapers.net/2016/08/57b1d0805b0a3.jpg"
                         alt="Primeiro Slide">
  
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 h-50"
-                        src="https://static2.lolwallpapers.net/2016/08/57af2970ad30e.jpg"
+                        src="https://static2.lolwallpapers.net/2016/07/579dae803fc8e.png"
                         alt="Segundo Slide">
 
                        
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 h-50"
-                        src="https://static2.lolwallpapers.net/2015/06/Lissandra-Fan-Art-By-kMayhem.jpg"
+                        src="https://static2.lolwallpapers.net/2016/09/57e178e9dd3b5.jpg"
                         alt="Terceiro Slide">
  
                 </div>
@@ -122,13 +122,13 @@
 
             <div class="row  mt-4">
                 <div class="col-sm-12 text-center">
-                    <h1 class="display-4">Lissandra</h1>
+                    <h1 class="display-4">Lulu</h1>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="img-fluid" src="../img/vida.png" width="80%">
+                    <img class="img-fluid" src="../img/lulu.png" width="80%">
                 
                </div>
               
@@ -146,4 +146,4 @@
 
 </body>
 
-</html>
+</php>

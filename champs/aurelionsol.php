@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/estilo.css">
 
-
+     
 </head>
 
 <body>
@@ -30,10 +30,10 @@
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">Home <span class="sr-only">(página atual)</span></a>
+                            <a class="nav-link" href="../index.php">Home <span class="sr-only">(página atual)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato.html">Contato</a>
+                            <a class="nav-link" href="contato.php">Contato</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -51,7 +51,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobre.html">Sobre</a>
+                            <a class="nav-link" href="sobre.php">Sobre</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -88,20 +88,20 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100 h-50"
-                        src="https://images.alphacoders.com/106/thumb-1920-1061407.jpg"
+                        src="https://static2.lolwallpapers.net/2016/03/56fbe918747ca.jpg"
                         alt="Primeiro Slide">
  
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 h-50"
-                        src="https://image5.uhdpaper.com/wallpaper/sett-mecha-kingdoms-uhdpaper.com-4K-5.1433.jpg"
+                        src="https://static2.lolwallpapers.net/2016/03/56f982777433b.png"
                         alt="Segundo Slide">
 
                        
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 h-50"
-                        src="https://cdn.dribbble.com/users/3864669/screenshots/9158048/dribbble-post_1600x1200.png"
+                        src="https://static2.lolwallpapers.net/2016/03/56e5574625c27.jpg"
                         alt="Terceiro Slide">
  
                 </div>
@@ -122,16 +122,16 @@
 
             <div class="row  mt-4">
                 <div class="col-sm-12 text-center">
-                    <h1 class="display-4">Sett</h1>
+                    <h1 class="display-4">Aurelion Sol</h1>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-12">
-                    <img class="img-fluid" src="../img/dominacao.png" width="80%">
-                
-               </div>
-              
+                     <img class="img-fluid" src="../img/aurelion.png" width="80%">
+                 
+                </div>
+               
                
             </div>
 
@@ -146,4 +146,4 @@
 
 </body>
 
-</html>
+</php>
