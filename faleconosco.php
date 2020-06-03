@@ -3,6 +3,8 @@
 <html lang="pt-br">
 
 <head>
+<link rel="shortcut icon" href="img/4732Predator_rune.ico" />
+
     <title>LolRunas</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +14,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/estilo.css">
 
-
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -34,37 +36,33 @@
 
                 <div class="row text-left">
                     <div class="col-sm-6">
-                        <form id="contactForm" class="form-group" action="contatodb.php" method="post">
+                        <form onSubmit="return verificar(this);" id="contactForm" class="form-group"  action="contatodb.php" method="post">
                             <label for="nome">Seu Nome :</label>
-                            <input name="nome" class="form-control mt-1 mb-3" type="text" placeholder="Digite Seu nome">
+                            <input  name="nome" class="form-control mt-1 mb-3" type="text" placeholder="Digite Seu nome">
 
-                            <label for="email">Seu Email:</label>
-                            <input name="email" class="form-control mt-1 mb-3" type="text"
-                                placeholder="Digite Seu Email">
+                            <label for="email">Seu E-mail:</label>
+                            <input  name="email" class="form-control mt-1 mb-3" type="email"
+                                placeholder="Digite Seu E-mail">
 
                             <label for="telefone">Seu Telefone:</label>
-                            <input name="telefone" class="form-control mt-1 mb-3" type="tel"
+                            <input   name="telefone" class="form-control mt-1 mb-3" type="tel"
                                 placeholder="Digite Seu Telefone">
 
                             <label for="assunto">Assunto</label>
-                            <input name="assunto" class="form-control mt-1 mb-3" type="text"
+                            <input   name="assunto" class="form-control mt-1 mb-3" type="text"
                                 placeholder="Assunto">
 
                             <label for="mensagem">Mensagem</label>
 
-                            <textarea name="mensagem" class="form-control mt-1 mb-3" name="" id="" cols="20" rows="5">
+                            <textarea   name="mensagem" class="form-control mt-1 mb-3"  id="" cols="20" rows="5">
 
                             </textarea> 
 
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button  type="submit" class="btn btn-primary">Enviar</button>
                         </form>
 
                     </div>
                 </div>
-
-
-
-
             </section>
 
         </div>

@@ -2,6 +2,8 @@
 <html lang="pt-br">
 
 <head>
+<link rel="shortcut icon" href="img/4732Predator_rune.ico" />
+
     <title>LolRunas</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

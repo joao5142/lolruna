@@ -1,5 +1,4 @@
 <?php
-		 
  
 		    include 'conecta.inc.php';
 	   
@@ -11,6 +10,7 @@
 			$mensagem = $_POST['mensagem'];
 
 			$dados = "INSERT INTO faleconosco (id,nome,email,telefone,assunto,mensagem) VALUES (null,'$nome','$email','$telefone','$assunto','$mensagem');";
+			
 			
 			$conexao= dbConnect();
 			$query = mysqli_query($conexao,$dados);

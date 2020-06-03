@@ -1,7 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+
     <title>LolRunas</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="../img/4732Predator_rune.ico" />
 
 </head>
 <body>
@@ -27,10 +29,10 @@
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                            <a class="nav-link" href="../index.php">Home <span class="sr-only">(página atual)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato.php">Contato</a>
+                            <a class="nav-link" href="../icontato.php">Contato</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -48,11 +50,11 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobre.php">Sobre</a>
+                            <a class="nav-link" href="../isobre.php">Sobre</a>
                         </li>
     
                         <li class="nav-item">
-                            <a class="nav-link" href="faleconosco.php">Fale Conosco</a>
+                            <a class="nav-link" href="../faleconosco.php">Fale Conosco</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -100,21 +102,21 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 h-50"
-                        src="https://s1.1zoom.me/big0/52/League_of_Legends_Akali_Artwork_Nurse_costume_555015_1280x720.jpg"
+                        src="https://images.wallpapersden.com/image/download/cool-true-damage-lol_70312_1920x1080.jpg"
                         alt="Segundo Slide">
     
                     <div class="carousel-caption">
-                        <h3>Akali</h3>
+                        <h3>LolChamps</h3>
     
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 h-50"
-                        src="https://img5.uhdpixel.com/wp/5y/3/project-evelynn-lol-league-of-legends-y5319.jpg"
+                        src="https://image.winudf.com/v2/image/Y29tLk5BTkdPLkxPTFdhbGxwYXBlcl9zY3JlZW5fMF8xNTI5NjQ5MzkyXzA2OA/screen-0.jpg?fakeurl=1&type=.jpg"
                         alt="Terceiro Slide">
     
                     <div class="carousel-caption">
-                        <h3>Irelia</h3>
+                        <h3>LolChamps</h3>
     
                     </div>
                 </div>
